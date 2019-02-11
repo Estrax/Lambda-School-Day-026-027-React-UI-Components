@@ -1,0 +1,14 @@
+.calculator-display {
+    background: #000;
+}
+
+.calculator-display p {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 4rem;
+    font-family: 'Product Sans';
+    padding: 20px;
+    margin: auto;
+    color: #fff;
+    font-weight: 100;
+}
