@@ -5,10 +5,13 @@ const HeaderTitle = () => {
     const currDate = new Date();
     
     return (
-        <div>
+        <div className="header-title">
             <h1>Lambda School</h1>
-            <h2>@LambdaSchool</h2>
-            <p>{currDate.getDate()} {currDate.toLocaleString('en-us', { month: 'short' }).toLowerCase()}</p>
+            <h2>
+                @LambdaSchool
+                &sdot;
+                {currDate.getDate()} {currDate.toLocaleString('en-us', { month: 'short' }).toLowerCase()}
+            </h2>
         </div>
     );
 }
