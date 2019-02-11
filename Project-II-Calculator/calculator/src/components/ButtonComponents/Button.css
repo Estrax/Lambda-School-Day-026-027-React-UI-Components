@@ -1,0 +1,32 @@
+button {
+    height: 80px;
+    font-size: 2rem;
+    font-weight: 500;
+    border: 1px solid darkgray;
+}
+
+.number {
+    background: #fff;
+    color: #000;
+}
+
+.action {
+    font-weight: 700;
+}
+
+.operator {
+    background: rgb(158, 0, 34);
+    color: #fff;
+}
+
+.short {
+    width: 33.33%;
+}
+
+.medium {
+    width: 70%;
+}
+
+.long {
+    width: 100%;
+}
