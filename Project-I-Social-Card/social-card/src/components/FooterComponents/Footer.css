@@ -1,0 +1,16 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left: 25px;
+}
+
+.footer-container i {
+    font-size: 1.4rem;
+}
+
+.footer-container i span {
+    font-size: inherit;
+    padding-left: 4px;
+    font-weight: 300;
+}
