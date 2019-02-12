@@ -1,1 +1,45 @@
 /* All styles for your header Components live here */
+
+.container-header {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-thumb {
+    margin-top: 10px;
+    height: 50px;
+}
+
+.container-header-title {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-title h1 {
+    padding: 4px;
+    font-size: 1.4rem;
+    margin-top: 8px;
+}
+
+.header-title h2 {
+    padding: 4px;
+    font-size: 1.4rem;
+    margin-top: 8px;
+    font-weight: 100;
+    color: lightgray;
+}
+
+.header-content {
+    margin-top: 0;
+    font-size: 1.4rem;
+    text-align: justify;
+    word-spacing: 1px;
+    line-height: 1.8rem;
+}
