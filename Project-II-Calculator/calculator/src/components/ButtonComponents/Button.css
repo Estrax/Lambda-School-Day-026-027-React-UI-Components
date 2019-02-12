@@ -1,7 +1,8 @@
 button {
     height: 80px;
+    font-family: 'Roboto';
+    font-weight: 300;
     font-size: 2rem;
-    font-weight: 500;
     border: 1px solid darkgray;
 }
 
@@ -11,7 +12,7 @@ button {
 }
 
 .action {
-    font-weight: 700;
+    font-weight: 300;
 }
 
 .operator {
