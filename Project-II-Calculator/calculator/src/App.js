@@ -6,12 +6,16 @@ import CalculatorContainer from './components/CalculatorComponents/CalculatorCon
 class App extends Component {
     constructor(props){
         super(props);
+
+        this.state = {
+            total: 0
+        }
     }
 
     render(){
         return (
             <div className="calculator">
-                <CalculatorContainer />
+                <CalculatorContainer total={this.state.total} />
             </div>
         );
     }
