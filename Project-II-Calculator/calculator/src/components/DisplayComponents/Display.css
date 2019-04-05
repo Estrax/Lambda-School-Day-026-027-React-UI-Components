@@ -7,9 +7,9 @@
     display: flex;
     justify-content: flex-end;
     font-size: 4rem;
-    font-family: 'Product Sans';
+    font-family: 'Roboto';
+    font-weight: 300;
     padding: 20px;
     margin: auto;
     color: #fff;
-    font-weight: 100;
 }
